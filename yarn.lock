@@ -1473,7 +1473,7 @@
   resolved "https://registry.yarnpkg.com/@oraichain/oraimargin-contracts-sdk/-/oraimargin-contracts-sdk-1.1.4.tgz#dc0a22211ea1bcaed850df8a754f8928a7bc0f50"
   integrity sha512-M1g15w3d90p7ssQiWEiBRf+tWt2XTFZp2h0YYWpe9rEm3vbRlQnsBqV+nY8sQp1hy6qSskTVjyHqGVif014lFg==
 
-"@oraichain/oraitrading-common@^1.0.2":
+"@oraichain/oraitrading-common@^0.0.4":
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/@oraichain/oraitrading-common/-/oraitrading-common-0.0.4.tgz#ce841fb2dc4ef2aa5cb20a61825454de42167d40"
   integrity sha512-4VTuyLGD4acBpy7CpinGBTq8Dq5I31zQygcKTtCv86gOtXJM5S8BxqXgTVwJKyg3ejdFqXPyTa5Tc+eq768KQg==
