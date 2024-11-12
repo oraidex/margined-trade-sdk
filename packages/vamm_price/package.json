@@ -17,6 +17,6 @@
   },
   "dependencies": {
     "@oraichain/oraimargin-contracts-sdk": "^1.0.2",
-    "@oraichain/oraitrading-common": "^0.0.4"
+    "@oraichain/oraitrading-common": "^2.0.1"
   }
 }

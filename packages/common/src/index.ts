@@ -136,7 +136,7 @@ export async function setupWallet(
     throw new Error("Must set MNEMONIC to a 12 word phrase");
   }
   const wallet = await DirectSecp256k1HdWallet.fromMnemonic(mnemonic, {
-    hdPaths: [stringToPath(config.hdPath ?? "m/44'/118'/0'/0/0")],
+    hdPaths: [stringToPath(config.hdPath ?? "m/44'/118'/0'/0/0")] as any,
     prefix: config.prefix ?? "orai",
   });
   const [firstAccount] = await wallet.getAccounts();
@@ -147,7 +147,9 @@ export async function setupWallet(
       config.rpcUrl || "https://rpc.orai.io",
       wallet as any,
       {
-        gasPrice: GasPrice.fromString(`${config.gasPrices ?? "0.001"}orai`),
+        gasPrice: GasPrice.fromString(
+          `${config.gasPrices ?? "0.001"}orai`
+        ) as any,
       }
     ));
 
