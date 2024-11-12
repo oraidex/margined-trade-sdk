@@ -1,6 +1,6 @@
 {
   "name": "@oraichain/oraitrading-common",
-  "version": "1.0.3",
+  "version": "2.0.1",
   "main": "build/index.js",
   "files": [
     "build/"

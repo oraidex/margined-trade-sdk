@@ -1461,6 +1461,23 @@
   resolved "https://registry.npmjs.org/@oraichain/oraidex-contracts-sdk/-/oraidex-contracts-sdk-1.0.22.tgz"
   integrity sha512-U6QoDDDKAutJ8W351hNpnPCEH5D0haXPPilxNkEE8+z5tYVbiGM4G4zjCxJgdtPRFZP0lZmvVI+T1gmd445uoQ==
 
+"@oraichain/oraimargin-contracts-build@^1.0.2":
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/@oraichain/oraimargin-contracts-build/-/oraimargin-contracts-build-1.1.3.tgz#c625a8cefb5a0e4c97d0816adc14499852261f0e"
+  integrity sha512-q2Yd1yy6fSgZEd9Q3oflAZl5iixIo68+e0gQmgMUg/7vJY5YXVMTXHZxn+RYakSpGQ2Gw352XJRXZMeet8Buhg==
+  dependencies:
+    "@oraichain/oraimargin-contracts-sdk" "^1.1.2"
+
+"@oraichain/oraimargin-contracts-sdk@^1.0.2", "@oraichain/oraimargin-contracts-sdk@^1.1.2":
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/@oraichain/oraimargin-contracts-sdk/-/oraimargin-contracts-sdk-1.1.4.tgz#dc0a22211ea1bcaed850df8a754f8928a7bc0f50"
+  integrity sha512-M1g15w3d90p7ssQiWEiBRf+tWt2XTFZp2h0YYWpe9rEm3vbRlQnsBqV+nY8sQp1hy6qSskTVjyHqGVif014lFg==
+
+"@oraichain/oraitrading-common@^1.0.2":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@oraichain/oraitrading-common/-/oraitrading-common-0.0.4.tgz#ce841fb2dc4ef2aa5cb20a61825454de42167d40"
+  integrity sha512-4VTuyLGD4acBpy7CpinGBTq8Dq5I31zQygcKTtCv86gOtXJM5S8BxqXgTVwJKyg3ejdFqXPyTa5Tc+eq768KQg==
+
 "@oraichain/wasm-json-toolkit@^1.0.24":
   version "1.0.24"
   resolved "https://registry.npmjs.org/@oraichain/wasm-json-toolkit/-/wasm-json-toolkit-1.0.24.tgz"
