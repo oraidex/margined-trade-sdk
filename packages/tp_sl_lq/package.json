@@ -12,7 +12,7 @@
     "build": "ncc build src/cli.ts --no-source-map-register -t -m"
   },
   "dependencies": {
-    "@cosmjs/tendermint-rpc": "^0.31.0",
+    "@cosmjs/tendermint-rpc": "^0.32.4",
     "@oraichain/common-contracts-build": "^1.0.26",
     "@oraichain/common-contracts-sdk": "^1.0.31",
     "@oraichain/oraidex-contracts-build": "^1.0.14",

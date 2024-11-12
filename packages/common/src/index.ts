@@ -145,7 +145,7 @@ export async function setupWallet(
     cosmwasmClient ??
     (await SigningCosmWasmClient.connectWithSigner(
       config.rpcUrl || "https://rpc.orai.io",
-      wallet,
+      wallet as any,
       {
         gasPrice: GasPrice.fromString(`${config.gasPrices ?? "0.001"}orai`),
       }
